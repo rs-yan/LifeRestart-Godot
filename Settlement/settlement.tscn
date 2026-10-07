@@ -1,0 +1,176 @@
+[gd_scene format=3 uid="uid://c5oayfrdk2nsb"]
+
+[ext_resource type="Script" uid="uid://raixd4up7l0e" path="res://Settlement/settlement.gd" id="1_rywpk"]
+
+[node name="Settlement" type="Control" unique_id=152424656]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_rywpk")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1183552847]
+layout_mode = 0
+offset_left = 240.0
+offset_top = 100.0
+offset_right = 1700.0
+offset_bottom = 866.0
+
+[node name="Label" type="Label" parent="VBoxContainer" unique_id=2138714314]
+custom_minimum_size = Vector2(1460, 0)
+custom_maximum_size = Vector2(1460, -1)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(1, 1, 1, 0.8235294)
+theme_override_font_sizes/font_size = 80
+text = "你死了。"
+autowrap_mode = 1
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer" unique_id=2122442397]
+layout_mode = 2
+theme_override_constants/margin_top = 60
+
+[node name="GridContainer" type="GridContainer" parent="VBoxContainer/MarginContainer" unique_id=1372770424]
+layout_mode = 2
+theme_override_constants/h_separation = 100
+theme_override_constants/v_separation = 20
+columns = 6
+
+[node name="AgeText" type="Label" parent="VBoxContainer/MarginContainer/GridContainer" unique_id=537370316]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 60
+text = "享年"
+horizontal_alignment = 1
+
+[node name="StrongText" type="Label" parent="VBoxContainer/MarginContainer/GridContainer" unique_id=77433213]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 60
+text = "体质"
+horizontal_alignment = 1
+
+[node name="BeautyText" type="Label" parent="VBoxContainer/MarginContainer/GridContainer" unique_id=926769289]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 60
+text = "颜值"
+horizontal_alignment = 1
+
+[node name="ClevernessText" type="Label" parent="VBoxContainer/MarginContainer/GridContainer" unique_id=14725284]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 60
+text = "智商"
+horizontal_alignment = 1
+
+[node name="MoneyText" type="Label" parent="VBoxContainer/MarginContainer/GridContainer" unique_id=392711313]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 60
+text = "家境"
+horizontal_alignment = 1
+
+[node name="EmotionText" type="Label" parent="VBoxContainer/MarginContainer/GridContainer" unique_id=485280670]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 60
+text = "心情"
+horizontal_alignment = 1
+
+[node name="AgeNum" type="Label" parent="VBoxContainer/MarginContainer/GridContainer" unique_id=420262460]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 60
+text = "xxx"
+horizontal_alignment = 1
+
+[node name="StrongNum" type="Label" parent="VBoxContainer/MarginContainer/GridContainer" unique_id=121498815]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 60
+text = "xxx"
+horizontal_alignment = 1
+
+[node name="BeautyNum" type="Label" parent="VBoxContainer/MarginContainer/GridContainer" unique_id=754831131]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 60
+text = "xxx"
+horizontal_alignment = 1
+
+[node name="ClevernessNum" type="Label" parent="VBoxContainer/MarginContainer/GridContainer" unique_id=1397254077]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 60
+text = "xxx"
+horizontal_alignment = 1
+
+[node name="MoneyNum" type="Label" parent="VBoxContainer/MarginContainer/GridContainer" unique_id=1421446090]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 60
+text = "xxx"
+horizontal_alignment = 1
+
+[node name="EmotionNum" type="Label" parent="VBoxContainer/MarginContainer/GridContainer" unique_id=1953161348]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 60
+text = "xxx"
+horizontal_alignment = 1
+
+[node name="AgeComment" type="Label" parent="VBoxContainer/MarginContainer/GridContainer" unique_id=1606332444]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 40
+text = "阿巴阿巴"
+horizontal_alignment = 1
+
+[node name="StrongComment" type="Label" parent="VBoxContainer/MarginContainer/GridContainer" unique_id=794998625]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 40
+text = "阿巴阿巴"
+horizontal_alignment = 1
+
+[node name="BeautyComment" type="Label" parent="VBoxContainer/MarginContainer/GridContainer" unique_id=309910387]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 40
+text = "阿巴阿巴"
+horizontal_alignment = 1
+
+[node name="ClevernessComment" type="Label" parent="VBoxContainer/MarginContainer/GridContainer" unique_id=1914968834]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 40
+text = "阿巴阿巴"
+horizontal_alignment = 1
+
+[node name="MoneyComment" type="Label" parent="VBoxContainer/MarginContainer/GridContainer" unique_id=906413345]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 40
+text = "阿巴阿巴"
+horizontal_alignment = 1
+
+[node name="EmotionComment" type="Label" parent="VBoxContainer/MarginContainer/GridContainer" unique_id=1019988661]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 40
+text = "阿巴阿巴"
+horizontal_alignment = 1
+
+[node name="MarginContainer2" type="MarginContainer" parent="VBoxContainer" unique_id=1664113841]
+layout_mode = 2
+theme_override_constants/margin_left = 200
+theme_override_constants/margin_top = 200
+theme_override_constants/margin_right = 200
+
+[node name="Back" type="Button" parent="VBoxContainer/MarginContainer2" unique_id=1122907343]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "锁定天赋"

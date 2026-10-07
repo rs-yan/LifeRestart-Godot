@@ -1,0 +1,155 @@
+[gd_scene format=3 uid="uid://d0lo5v2kwymqa"]
+
+[ext_resource type="Script" uid="uid://dwt7kx82v4mqq" path="res://Lock_talent/lock_talent.gd" id="1_4p0rw"]
+
+[node name="LockTalent" type="Control" unique_id=305575676]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_4p0rw")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=2032115264]
+layout_mode = 0
+offset_left = 560.0
+offset_top = 20.0
+offset_right = 1360.0
+offset_bottom = 944.0
+
+[node name="Title" type="Label" parent="VBoxContainer" unique_id=1321076333]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(1, 1, 1, 0.4509804)
+theme_override_font_sizes/font_size = 70
+text = "请选择一个天赋"
+horizontal_alignment = 1
+
+[node name="Body" type="Label" parent="VBoxContainer" unique_id=2132308835]
+custom_minimum_size = Vector2(800, 69)
+custom_maximum_size = Vector2(800, 150)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(1, 1, 1, 0.49411765)
+theme_override_font_sizes/font_size = 50
+text = "下次你还会抽到它下次你还会抽到它"
+horizontal_alignment = 1
+autowrap_mode = 1
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer" unique_id=511893051]
+layout_mode = 2
+theme_override_constants/margin_top = 30
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/MarginContainer" unique_id=650336245]
+layout_mode = 2
+
+[node name="Talent" type="MarginContainer" parent="VBoxContainer/MarginContainer/VBoxContainer" unique_id=932301987]
+custom_minimum_size = Vector2(800, 150)
+custom_maximum_size = Vector2(800, 150)
+layout_mode = 2
+
+[node name="Button" type="Button" parent="VBoxContainer/MarginContainer/VBoxContainer/Talent" unique_id=2132056927]
+layout_mode = 2
+offset_transform_enabled = true
+toggle_mode = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/MarginContainer/VBoxContainer/Talent" unique_id=323032329]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="TitleLabel" type="Label" parent="VBoxContainer/MarginContainer/VBoxContainer/Talent/VBoxContainer" unique_id=1102759810]
+custom_maximum_size = Vector2(800, -1)
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "这是标题"
+autowrap_mode = 1
+
+[node name="BodyLabel" type="Label" parent="VBoxContainer/MarginContainer/VBoxContainer/Talent/VBoxContainer" unique_id=2101461676]
+custom_maximum_size = Vector2(800, -1)
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "这是内容内容内容内容内容内容内容内容内容"
+autowrap_mode = 1
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer/MarginContainer/VBoxContainer" unique_id=328939593]
+layout_mode = 2
+theme_override_constants/margin_top = 30
+
+[node name="Talent" type="MarginContainer" parent="VBoxContainer/MarginContainer/VBoxContainer/MarginContainer" unique_id=875230805]
+custom_minimum_size = Vector2(800, 150)
+custom_maximum_size = Vector2(800, 150)
+layout_mode = 2
+
+[node name="Button" type="Button" parent="VBoxContainer/MarginContainer/VBoxContainer/MarginContainer/Talent" unique_id=385942955]
+layout_mode = 2
+offset_transform_enabled = true
+toggle_mode = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/MarginContainer/VBoxContainer/MarginContainer/Talent" unique_id=6505779]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="TitleLabel" type="Label" parent="VBoxContainer/MarginContainer/VBoxContainer/MarginContainer/Talent/VBoxContainer" unique_id=1250752280]
+custom_maximum_size = Vector2(800, -1)
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "这是标题"
+autowrap_mode = 1
+
+[node name="BodyLabel" type="Label" parent="VBoxContainer/MarginContainer/VBoxContainer/MarginContainer/Talent/VBoxContainer" unique_id=588065851]
+custom_maximum_size = Vector2(800, -1)
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "这是内容内容内容内容内容内容内容内容内容"
+autowrap_mode = 1
+
+[node name="MarginContainer2" type="MarginContainer" parent="VBoxContainer/MarginContainer/VBoxContainer" unique_id=1448334848]
+layout_mode = 2
+theme_override_constants/margin_top = 30
+
+[node name="Talent" type="MarginContainer" parent="VBoxContainer/MarginContainer/VBoxContainer/MarginContainer2" unique_id=497339363]
+custom_minimum_size = Vector2(800, 150)
+custom_maximum_size = Vector2(800, 150)
+layout_mode = 2
+
+[node name="Button" type="Button" parent="VBoxContainer/MarginContainer/VBoxContainer/MarginContainer2/Talent" unique_id=2070095067]
+layout_mode = 2
+offset_transform_enabled = true
+toggle_mode = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/MarginContainer/VBoxContainer/MarginContainer2/Talent" unique_id=509952716]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="TitleLabel" type="Label" parent="VBoxContainer/MarginContainer/VBoxContainer/MarginContainer2/Talent/VBoxContainer" unique_id=1363381117]
+custom_maximum_size = Vector2(800, -1)
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "这是标题"
+autowrap_mode = 1
+
+[node name="BodyLabel" type="Label" parent="VBoxContainer/MarginContainer/VBoxContainer/MarginContainer2/Talent/VBoxContainer" unique_id=219156359]
+custom_maximum_size = Vector2(800, -1)
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "这是内容内容内容内容内容内容内容内容内容"
+autowrap_mode = 1
+
+[node name="MarginContainer3" type="MarginContainer" parent="VBoxContainer" unique_id=1189225604]
+layout_mode = 2
+theme_override_constants/margin_top = 20
+
+[node name="CopySeed" type="Button" parent="VBoxContainer/MarginContainer3" unique_id=791292018]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "复制种子"
+
+[node name="MarginContainer2" type="MarginContainer" parent="VBoxContainer" unique_id=681124327]
+layout_mode = 2
+theme_override_constants/margin_top = 20
+
+[node name="Button" type="Button" parent="VBoxContainer/MarginContainer2" unique_id=1509537959]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "返回"

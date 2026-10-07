@@ -1,0 +1,244 @@
+[gd_scene format=3 uid="uid://ceew1lnkae65u"]
+
+[ext_resource type="Script" uid="uid://c8y1wg2c8ebs2" path="res://Main/main.gd" id="1_yh5la"]
+
+[node name="Control" type="Control" unique_id=535766721]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_yh5la")
+
+[node name="Values" type="GridContainer" parent="." unique_id=2126107542]
+layout_mode = 0
+offset_left = 80.0
+offset_top = 50.0
+offset_right = 400.0
+offset_bottom = 540.0
+theme_override_constants/h_separation = 20
+theme_override_constants/v_separation = 20
+columns = 2
+
+[node name="Strong" type="PanelContainer" parent="Values" unique_id=946329342]
+custom_minimum_size = Vector2(150, 150)
+custom_maximum_size = Vector2(150, 150)
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="Values/Strong" unique_id=1524252436]
+layout_mode = 2
+theme_override_constants/margin_top = 15
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Values/Strong/MarginContainer" unique_id=1738753537]
+custom_minimum_size = Vector2(160, 160)
+custom_maximum_size = Vector2(160, 160)
+layout_mode = 2
+
+[node name="TitleText" type="Label" parent="Values/Strong/MarginContainer/VBoxContainer" unique_id=1486016481]
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "体质"
+horizontal_alignment = 1
+
+[node name="BodyText" type="Label" parent="Values/Strong/MarginContainer/VBoxContainer" unique_id=1296626036]
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "0"
+horizontal_alignment = 1
+
+[node name="Beauty" type="PanelContainer" parent="Values" unique_id=1648101641]
+custom_minimum_size = Vector2(150, 150)
+custom_maximum_size = Vector2(150, 150)
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="Values/Beauty" unique_id=801210359]
+layout_mode = 2
+theme_override_constants/margin_top = 15
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Values/Beauty/MarginContainer" unique_id=634041644]
+custom_minimum_size = Vector2(160, 160)
+custom_maximum_size = Vector2(160, 160)
+layout_mode = 2
+
+[node name="TitleText" type="Label" parent="Values/Beauty/MarginContainer/VBoxContainer" unique_id=2087051951]
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "颜值"
+horizontal_alignment = 1
+
+[node name="BodyText" type="Label" parent="Values/Beauty/MarginContainer/VBoxContainer" unique_id=1531929500]
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "0"
+horizontal_alignment = 1
+
+[node name="Cleverness" type="PanelContainer" parent="Values" unique_id=234491378]
+custom_minimum_size = Vector2(150, 150)
+custom_maximum_size = Vector2(150, 150)
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="Values/Cleverness" unique_id=407434628]
+layout_mode = 2
+theme_override_constants/margin_top = 15
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Values/Cleverness/MarginContainer" unique_id=1904637669]
+custom_minimum_size = Vector2(160, 160)
+custom_maximum_size = Vector2(160, 160)
+layout_mode = 2
+
+[node name="TitleText" type="Label" parent="Values/Cleverness/MarginContainer/VBoxContainer" unique_id=342803403]
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "智商"
+horizontal_alignment = 1
+
+[node name="BodyText" type="Label" parent="Values/Cleverness/MarginContainer/VBoxContainer" unique_id=73644665]
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "0"
+horizontal_alignment = 1
+
+[node name="Money" type="PanelContainer" parent="Values" unique_id=463264218]
+custom_minimum_size = Vector2(150, 150)
+custom_maximum_size = Vector2(150, 150)
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="Values/Money" unique_id=1831060710]
+layout_mode = 2
+theme_override_constants/margin_top = 15
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Values/Money/MarginContainer" unique_id=320278207]
+custom_minimum_size = Vector2(160, 160)
+custom_maximum_size = Vector2(160, 160)
+layout_mode = 2
+
+[node name="TitleText" type="Label" parent="Values/Money/MarginContainer/VBoxContainer" unique_id=74283185]
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "家境"
+horizontal_alignment = 1
+
+[node name="BodyText" type="Label" parent="Values/Money/MarginContainer/VBoxContainer" unique_id=1861249455]
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "0"
+horizontal_alignment = 1
+
+[node name="Luck" type="PanelContainer" parent="Values" unique_id=88088069]
+custom_minimum_size = Vector2(150, 150)
+custom_maximum_size = Vector2(150, 150)
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="Values/Luck" unique_id=1541878847]
+layout_mode = 2
+theme_override_constants/margin_top = 15
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Values/Luck/MarginContainer" unique_id=61661092]
+custom_minimum_size = Vector2(160, 160)
+custom_maximum_size = Vector2(160, 160)
+layout_mode = 2
+
+[node name="TitleText" type="Label" parent="Values/Luck/MarginContainer/VBoxContainer" unique_id=2018342285]
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "运气"
+horizontal_alignment = 1
+
+[node name="BodyText" type="Label" parent="Values/Luck/MarginContainer/VBoxContainer" unique_id=1620296825]
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "0"
+horizontal_alignment = 1
+
+[node name="Emotion" type="PanelContainer" parent="Values" unique_id=347631172]
+custom_minimum_size = Vector2(150, 150)
+custom_maximum_size = Vector2(150, 150)
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="Values/Emotion" unique_id=272261809]
+layout_mode = 2
+theme_override_constants/margin_top = 15
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Values/Emotion/MarginContainer" unique_id=1839794365]
+custom_minimum_size = Vector2(160, 160)
+custom_maximum_size = Vector2(160, 160)
+layout_mode = 2
+
+[node name="TitleText" type="Label" parent="Values/Emotion/MarginContainer/VBoxContainer" unique_id=2005027160]
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "心情"
+horizontal_alignment = 1
+
+[node name="BodyText" type="Label" parent="Values/Emotion/MarginContainer/VBoxContainer" unique_id=1679376896]
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "0"
+horizontal_alignment = 1
+
+[node name="CenterBox" type="VBoxContainer" parent="." unique_id=1302933813]
+layout_mode = 0
+offset_left = 470.0
+offset_top = 20.0
+offset_right = 1370.0
+offset_bottom = 850.0
+
+[node name="ScrollContainer" type="ScrollContainer" parent="CenterBox" unique_id=508273553]
+custom_minimum_size = Vector2(880, 700)
+custom_maximum_size = Vector2(880, 700)
+layout_mode = 2
+size_flags_vertical = 0
+
+[node name="TextList" type="VBoxContainer" parent="CenterBox/ScrollContainer" unique_id=303432652]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 0
+theme_override_constants/separation = 10
+
+[node name="ChooseBox" type="GridContainer" parent="CenterBox" unique_id=1397763237]
+layout_mode = 2
+columns = 3
+
+[node name="RightOperationBox" type="VBoxContainer" parent="." unique_id=814894514]
+layout_mode = 0
+offset_left = 1400.0
+offset_right = 1906.0
+offset_bottom = 69.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="RightOperationBox" unique_id=2046806753]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Text" type="Label" parent="RightOperationBox/HBoxContainer" unique_id=1154637878]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(1, 1, 1, 0.67058825)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 40
+text = "速度"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="RightOperationBox/HBoxContainer" unique_id=1765159527]
+layout_mode = 2
+mouse_filter = 2
+alignment = 1
+
+[node name="SpeedSlider" type="HSlider" parent="RightOperationBox/HBoxContainer/VBoxContainer" unique_id=818746418]
+custom_minimum_size = Vector2(300, 50)
+custom_maximum_size = Vector2(300, 50)
+layout_mode = 2
+max_value = 5.0
+step = 0.5
+value = 1.0
+
+[node name="SpeedNum" type="Label" parent="RightOperationBox/HBoxContainer" unique_id=1694290919]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(1, 1, 1, 0.67058825)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 40
+text = "1.0x"
+
+[node name="Timer" type="Timer" parent="." unique_id=1044912387]
+one_shot = true

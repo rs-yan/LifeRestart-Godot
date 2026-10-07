@@ -1,0 +1,195 @@
+[gd_scene format=3 uid="uid://c3hfqpgef8vrg"]
+
+[ext_resource type="Script" uid="uid://btn3fvav2c8vk" path="res://Skill_menu/skill.gd" id="1_r74y1"]
+
+[node name="Control" type="Control" unique_id=89905576]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_r74y1")
+
+[node name="ExitButton" type="Button" parent="." unique_id=1718801451]
+layout_mode = 0
+offset_left = 50.0
+offset_top = 50.0
+offset_right = 158.0
+offset_bottom = 127.0
+theme_override_font_sizes/font_size = 50
+text = "返回"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=2110779118]
+layout_mode = 0
+offset_left = 750.0
+offset_top = 80.0
+offset_right = 1230.0
+offset_bottom = 846.0
+
+[node name="Text" type="Label" parent="VBoxContainer" unique_id=877992868]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0.7708395, 0.77083945, 0.77083945, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 80
+text = "请配置属性点"
+horizontal_alignment = 1
+
+[node name="Text2" type="Label" parent="VBoxContainer" unique_id=304037833]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0.52906674, 0.5290667, 0.5290667, 1)
+theme_override_font_sizes/font_size = 50
+text = "剩余20点"
+horizontal_alignment = 1
+
+[node name="SetBox" type="MarginContainer" parent="VBoxContainer" unique_id=149373360]
+layout_mode = 2
+theme_override_constants/margin_left = -30
+theme_override_constants/margin_top = 50
+theme_override_constants/margin_right = -30
+theme_override_constants/margin_bottom = 100
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/SetBox" unique_id=1397315890]
+layout_mode = 2
+
+[node name="Strong" type="HBoxContainer" parent="VBoxContainer/SetBox/VBoxContainer" unique_id=119649759]
+layout_mode = 2
+alignment = 1
+
+[node name="NameText" type="Label" parent="VBoxContainer/SetBox/VBoxContainer/Strong" unique_id=1387420090]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "体质"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/SetBox/VBoxContainer/Strong" unique_id=686086225]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 30
+alignment = 1
+
+[node name="HSlider" type="HSlider" parent="VBoxContainer/SetBox/VBoxContainer/Strong/VBoxContainer" unique_id=422332193]
+layout_mode = 2
+size_flags_horizontal = 3
+max_value = 8.0
+
+[node name="NumText" type="Label" parent="VBoxContainer/SetBox/VBoxContainer/Strong" unique_id=1584529819]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "0/8"
+
+[node name="Beauty" type="HBoxContainer" parent="VBoxContainer/SetBox/VBoxContainer" unique_id=781566790]
+layout_mode = 2
+alignment = 1
+
+[node name="NameText" type="Label" parent="VBoxContainer/SetBox/VBoxContainer/Beauty" unique_id=1398931929]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "颜值"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/SetBox/VBoxContainer/Beauty" unique_id=1105507616]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 30
+alignment = 1
+
+[node name="HSlider" type="HSlider" parent="VBoxContainer/SetBox/VBoxContainer/Beauty/VBoxContainer" unique_id=402459277]
+layout_mode = 2
+size_flags_horizontal = 3
+max_value = 8.0
+
+[node name="NumText" type="Label" parent="VBoxContainer/SetBox/VBoxContainer/Beauty" unique_id=390579353]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "0/8"
+
+[node name="Cleverness" type="HBoxContainer" parent="VBoxContainer/SetBox/VBoxContainer" unique_id=2119451810]
+layout_mode = 2
+alignment = 1
+
+[node name="NameText" type="Label" parent="VBoxContainer/SetBox/VBoxContainer/Cleverness" unique_id=1045037627]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "智商"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/SetBox/VBoxContainer/Cleverness" unique_id=2047942089]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 30
+alignment = 1
+
+[node name="HSlider" type="HSlider" parent="VBoxContainer/SetBox/VBoxContainer/Cleverness/VBoxContainer" unique_id=626573080]
+layout_mode = 2
+size_flags_horizontal = 3
+max_value = 8.0
+
+[node name="NumText" type="Label" parent="VBoxContainer/SetBox/VBoxContainer/Cleverness" unique_id=1336153468]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "0/8"
+
+[node name="Money" type="HBoxContainer" parent="VBoxContainer/SetBox/VBoxContainer" unique_id=1817972955]
+layout_mode = 2
+alignment = 1
+
+[node name="NameText" type="Label" parent="VBoxContainer/SetBox/VBoxContainer/Money" unique_id=477516383]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "家境"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/SetBox/VBoxContainer/Money" unique_id=1928457845]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 30
+alignment = 1
+
+[node name="HSlider" type="HSlider" parent="VBoxContainer/SetBox/VBoxContainer/Money/VBoxContainer" unique_id=390483900]
+layout_mode = 2
+size_flags_horizontal = 3
+max_value = 8.0
+
+[node name="NumText" type="Label" parent="VBoxContainer/SetBox/VBoxContainer/Money" unique_id=640013287]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "0/8"
+
+[node name="luck" type="HBoxContainer" parent="VBoxContainer/SetBox/VBoxContainer" unique_id=1797180507]
+layout_mode = 2
+alignment = 1
+
+[node name="NameText" type="Label" parent="VBoxContainer/SetBox/VBoxContainer/luck" unique_id=570928071]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "运气"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/SetBox/VBoxContainer/luck" unique_id=345254590]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 30
+alignment = 1
+
+[node name="HSlider" type="HSlider" parent="VBoxContainer/SetBox/VBoxContainer/luck/VBoxContainer" unique_id=209743246]
+layout_mode = 2
+size_flags_horizontal = 3
+max_value = 8.0
+
+[node name="NumText" type="Label" parent="VBoxContainer/SetBox/VBoxContainer/luck" unique_id=545030035]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "0/8"
+
+[node name="Start" type="Button" parent="VBoxContainer" unique_id=1367880041]
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "重开人生"

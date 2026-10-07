@@ -1,0 +1,238 @@
+[gd_scene format=3 uid="uid://dnfeofw56iee8"]
+
+[ext_resource type="Script" uid="uid://cxgvod7xxaack" path="res://Talent_menu/talent.gd" id="1_w5lbd"]
+
+[node name="Control" type="Control" unique_id=904229138]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_w5lbd")
+
+[node name="ExitButton" type="Button" parent="." unique_id=1965329926]
+layout_mode = 0
+offset_left = 50.0
+offset_top = 50.0
+offset_right = 90.0
+offset_bottom = 81.0
+theme_override_font_sizes/font_size = 50
+text = "返回"
+
+[node name="Center" type="VBoxContainer" parent="." unique_id=1583746211]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.19500001
+anchor_top = 0.093
+anchor_right = 0.80500007
+anchor_bottom = 0.69100004
+offset_left = -0.1000061
+offset_top = -60.440002
+offset_right = 32.099854
+offset_bottom = 82.71997
+
+[node name="Text" type="Label" parent="Center" unique_id=584599541]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0.641934, 0.641934, 0.641934, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 100
+text = "请选择你的天赋"
+horizontal_alignment = 1
+
+[node name="Text2" type="Label" parent="Center" unique_id=1657894037]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 60
+text = "（六选三）"
+horizontal_alignment = 1
+
+[node name="TalentsBox" type="MarginContainer" parent="Center" unique_id=303909082]
+layout_mode = 2
+theme_override_constants/margin_top = 40
+
+[node name="Talents" type="GridContainer" parent="Center/TalentsBox" unique_id=759603555]
+layout_mode = 2
+theme_override_constants/h_separation = 20
+theme_override_constants/v_separation = 20
+columns = 3
+
+[node name="Talent1" type="MarginContainer" parent="Center/TalentsBox/Talents" unique_id=1331195891]
+custom_minimum_size = Vector2(400, 250)
+custom_maximum_size = Vector2(400, 250)
+layout_mode = 2
+
+[node name="Button" type="Button" parent="Center/TalentsBox/Talents/Talent1" unique_id=1676237051]
+layout_mode = 2
+offset_transform_enabled = true
+toggle_mode = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Center/TalentsBox/Talents/Talent1" unique_id=1160761223]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="TitleLabel" type="Label" parent="Center/TalentsBox/Talents/Talent1/VBoxContainer" unique_id=1675721866]
+custom_maximum_size = Vector2(400, -1)
+layout_mode = 2
+theme_override_font_sizes/font_size = 60
+text = "这是标题"
+autowrap_mode = 1
+
+[node name="BodyLabel" type="Label" parent="Center/TalentsBox/Talents/Talent1/VBoxContainer" unique_id=251292662]
+custom_maximum_size = Vector2(400, -1)
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "这是内容内容内容内容内容内容内容内容内容"
+autowrap_mode = 1
+
+[node name="Talent2" type="MarginContainer" parent="Center/TalentsBox/Talents" unique_id=1225219673]
+custom_minimum_size = Vector2(400, 250)
+custom_maximum_size = Vector2(400, 250)
+layout_mode = 2
+
+[node name="Button" type="Button" parent="Center/TalentsBox/Talents/Talent2" unique_id=1966308408]
+layout_mode = 2
+offset_transform_enabled = true
+toggle_mode = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Center/TalentsBox/Talents/Talent2" unique_id=1342271267]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="TitleLabel" type="Label" parent="Center/TalentsBox/Talents/Talent2/VBoxContainer" unique_id=133344096]
+custom_maximum_size = Vector2(400, -1)
+layout_mode = 2
+theme_override_font_sizes/font_size = 60
+text = "这是标题"
+autowrap_mode = 1
+
+[node name="BodyLabel" type="Label" parent="Center/TalentsBox/Talents/Talent2/VBoxContainer" unique_id=425546409]
+custom_maximum_size = Vector2(400, -1)
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "这是内容内容内容内容内容内容内容内容内容"
+autowrap_mode = 1
+
+[node name="Talent3" type="MarginContainer" parent="Center/TalentsBox/Talents" unique_id=1961679206]
+custom_minimum_size = Vector2(400, 250)
+custom_maximum_size = Vector2(400, 250)
+layout_mode = 2
+
+[node name="Button" type="Button" parent="Center/TalentsBox/Talents/Talent3" unique_id=197628826]
+layout_mode = 2
+offset_transform_enabled = true
+toggle_mode = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Center/TalentsBox/Talents/Talent3" unique_id=1464512977]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="TitleLabel" type="Label" parent="Center/TalentsBox/Talents/Talent3/VBoxContainer" unique_id=660202404]
+custom_maximum_size = Vector2(400, -1)
+layout_mode = 2
+theme_override_font_sizes/font_size = 60
+text = "这是标题"
+autowrap_mode = 1
+
+[node name="BodyLabel" type="Label" parent="Center/TalentsBox/Talents/Talent3/VBoxContainer" unique_id=1330790491]
+custom_maximum_size = Vector2(400, -1)
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "这是内容内容内容内容内容内容内容内容内容"
+autowrap_mode = 1
+
+[node name="Talent4" type="MarginContainer" parent="Center/TalentsBox/Talents" unique_id=148202089]
+custom_minimum_size = Vector2(400, 250)
+custom_maximum_size = Vector2(400, 250)
+layout_mode = 2
+
+[node name="Button" type="Button" parent="Center/TalentsBox/Talents/Talent4" unique_id=1904722552]
+layout_mode = 2
+offset_transform_enabled = true
+toggle_mode = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Center/TalentsBox/Talents/Talent4" unique_id=723362681]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="TitleLabel" type="Label" parent="Center/TalentsBox/Talents/Talent4/VBoxContainer" unique_id=912320730]
+custom_maximum_size = Vector2(400, -1)
+layout_mode = 2
+theme_override_font_sizes/font_size = 60
+text = "这是标题"
+autowrap_mode = 1
+
+[node name="BodyLabel" type="Label" parent="Center/TalentsBox/Talents/Talent4/VBoxContainer" unique_id=1097499120]
+custom_maximum_size = Vector2(400, -1)
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "这是内容内容内容内容内容内容内容内容内容"
+autowrap_mode = 1
+
+[node name="Talent5" type="MarginContainer" parent="Center/TalentsBox/Talents" unique_id=1140815197]
+custom_minimum_size = Vector2(400, 250)
+custom_maximum_size = Vector2(400, 250)
+layout_mode = 2
+
+[node name="Button" type="Button" parent="Center/TalentsBox/Talents/Talent5" unique_id=1407002869]
+layout_mode = 2
+offset_transform_enabled = true
+toggle_mode = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Center/TalentsBox/Talents/Talent5" unique_id=1277559920]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="TitleLabel" type="Label" parent="Center/TalentsBox/Talents/Talent5/VBoxContainer" unique_id=1510025959]
+custom_maximum_size = Vector2(400, -1)
+layout_mode = 2
+theme_override_font_sizes/font_size = 60
+text = "这是标题"
+autowrap_mode = 1
+
+[node name="BodyLabel" type="Label" parent="Center/TalentsBox/Talents/Talent5/VBoxContainer" unique_id=856448846]
+custom_maximum_size = Vector2(400, -1)
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "这是内容内容内容内容内容内容内容内容内容"
+autowrap_mode = 1
+
+[node name="Talent6" type="MarginContainer" parent="Center/TalentsBox/Talents" unique_id=30830937]
+custom_minimum_size = Vector2(400, 250)
+custom_maximum_size = Vector2(400, 250)
+layout_mode = 2
+
+[node name="Button" type="Button" parent="Center/TalentsBox/Talents/Talent6" unique_id=2006907241]
+layout_mode = 2
+offset_transform_enabled = true
+toggle_mode = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Center/TalentsBox/Talents/Talent6" unique_id=1231283020]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="TitleLabel" type="Label" parent="Center/TalentsBox/Talents/Talent6/VBoxContainer" unique_id=246285530]
+custom_maximum_size = Vector2(400, -1)
+layout_mode = 2
+theme_override_font_sizes/font_size = 60
+text = "这是标题"
+autowrap_mode = 1
+
+[node name="BodyLabel" type="Label" parent="Center/TalentsBox/Talents/Talent6/VBoxContainer" unique_id=415290996]
+custom_maximum_size = Vector2(400, -1)
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "这是内容内容内容内容内容内容内容内容内容"
+autowrap_mode = 1
+
+[node name="StartMargin" type="MarginContainer" parent="Center" unique_id=1653375287]
+layout_mode = 2
+theme_override_constants/margin_top = 30
+
+[node name="Start" type="Button" parent="Center/StartMargin" unique_id=1132928719]
+layout_mode = 2
+theme_override_font_sizes/font_size = 60
+text = "配置属性点"
